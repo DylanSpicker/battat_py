@@ -1,0 +1,5 @@
+---
+applications:
+ - name: battat
+   random-route: true
+   memory: 1536MB

@@ -1,0 +1,71 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.comment {
+    background: #F5F5F5;
+    border: 1px solid #333;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    position: relative;
+    padding-top: 35px;
+}
+span.author {
+    position: absolute;
+    top: 5px;
+    cursor: pointer;
+    left: 5px;
+    color: #0275d8;
+}
+
+span.rating {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: #E30745;
+}
+
+p.emotion {
+    border: 2px solid black;
+    width: 100%;
+    height: 25px;
+    margin-top: -10px; 
+    margin-bottom: 0px;
+}
+p.emotion span {
+    display: block;
+    height: 100%;
+    background: black;
+}
+
+p.sadness{ border-color: blue; } p.sadness span {background: blue;}
+p.joy {border-color: yellow;} p.joy span {background: yellow;}
+p.fear {border-color: purple;} p.fear span {background: purple;}
+p.anger {border-color: red;} p.anger span {background: red;}
+p.disgust {border-color: green;} p.disgust span {background: green;}
+
+.request_input {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+
+.product_input {
+    display: inline-block;
+    width: auto;
+}
+
+.sentiment_input {
+    display: inline-block;
+    width: auto;
+}
+
+.filter_input {
+    margin-top: 10px;
+}
+
+nav.navbar.navbar-static-top {
+    margin-bottom: 0px;
+}
